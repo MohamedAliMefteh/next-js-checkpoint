@@ -1,0 +1,45 @@
+/* styles/home.module.css */
+
+.container {
+    max-width: 1200px; /* Max width for the homepage */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+  }
+  
+  .header {
+    text-align: center; /* Center the header text */
+    margin-bottom: 40px; /* Space below the header */
+  }
+  
+  .title {
+    font-size: 2.5rem; /* Large title font size */
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .subtitle {
+    font-size: 1.2rem; /* Subtitle font size */
+    color: #666; /* Lighter text color */
+  }
+  
+  .projectGrid {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: center; /* Center items */
+    gap: 20px; /* Space between project cards */
+  }
+  
+  .footer {
+    text-align: center; /* Center footer text */
+    margin-top: 40px; /* Space above the footer */
+    color: #666; /* Lighter text color */
+  }
+  
+  .footer a {
+    color: #0070f3; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer a:hover {
+    color: #005bb5; /* Darker shade on hover */
+  }

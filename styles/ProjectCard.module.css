@@ -1,0 +1,48 @@
+/* styles/ProjectCard.module.css */
+
+.card {
+    background-color: #ffffff; /* White background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Clip overflow */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .image {
+    border-bottom: 2px solid #f0f0f0; /* Bottom border for image */
+  }
+  
+  .content {
+    padding: 16px; /* Padding around content */
+  }
+  
+  .title {
+    font-size: 1.5rem; /* Title font size */
+    margin: 0; /* Remove default margin */
+    color: #333; /* Dark text color */
+  }
+  
+  .description {
+    font-size: 1rem; /* Description font size */
+    color: #666; /* Lighter text color */
+    margin: 8px 0; /* Margin for spacing */
+  }
+  
+  .button {
+    display: inline-block; /* Inline block for button */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #0070f3; /* Primary button color */
+    color: #ffffff; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth background color change */
+  }
+  
+  .button:hover {
+    background-color: #005bb5; /* Darker shade on hover */
+  }

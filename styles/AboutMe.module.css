@@ -1,0 +1,32 @@
+/* styles/AboutMe.module.css */
+
+.container {
+    max-width: 800px; /* Max width for the about me section */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center text */
+  }
+  
+  .profilePicture {
+    width: 150px; /* Fixed width for profile picture */
+    height: 150px; /* Fixed height for profile picture */
+    border-radius: 50%; /* Circular profile picture */
+    object-fit: cover; /* Cover the area without distortion */
+    margin-bottom: 20px; /* Space below the image */
+  }
+  
+  .title {
+    font-size: 2rem; /* Title font size */
+    color: #333; /* Dark text color */
+    margin-bottom: 15px; /* Space below the title */
+  }
+  
+  .description {
+    font-size: 1rem; /* Font size for description */
+    color: #555; /* Slightly lighter text color */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 15px; /* Space below each paragraph */
+  }

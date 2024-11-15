@@ -1,0 +1,41 @@
+/* styles/Navbar.module.css */
+
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #33333309; 
+    padding: 15px 30px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  .logo {
+    font-size: 1.8rem; /* Logo font size */
+    font-weight: bold; /* Bold font for logo */
+    color: #ffffff; /* White text color for logo */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .navLinks {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Use flexbox for links */
+    gap: 30px; /* Space between links */
+  }
+  
+  .navLinks li {
+    margin: 0; /* Remove margin */
+  }
+  
+  .navLinks a {
+    color: #000000; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 12px; /* Padding around links */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  .navLinks a:hover {
+    background-color: #0070f3; /* Background color on hover */
+    color: #ffffff; /* Keep text color white on hover */
+  }
