@@ -1,45 +1,45 @@
-/* styles/home.module.css */
+
 
 .container {
-    max-width: 1200px; /* Max width for the homepage */
-    margin: 0 auto; /* Center the container */
-    padding: 20px; /* Padding around the container */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
   }
   
   .header {
-    text-align: center; /* Center the header text */
-    margin-bottom: 40px; /* Space below the header */
+    text-align: center;
+    margin-bottom: 40px;
   }
   
   .title {
-    font-size: 2.5rem; /* Large title font size */
-    color: #333; /* Dark text color */
-    margin-bottom: 10px; /* Space below the title */
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
   }
   
   .subtitle {
-    font-size: 1.2rem; /* Subtitle font size */
-    color: #666; /* Lighter text color */
+    font-size: 1.2rem;
+    color: #666;
   }
   
   .projectGrid {
-    display: flex; /* Use flexbox for layout */
-    flex-wrap: wrap; /* Allow wrapping of items */
-    justify-content: center; /* Center items */
-    gap: 20px; /* Space between project cards */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
   
   .footer {
-    text-align: center; /* Center footer text */
-    margin-top: 40px; /* Space above the footer */
-    color: #666; /* Lighter text color */
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
   }
   
   .footer a {
-    color: #0070f3; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: #0070f3;
+    text-decoration: none;
   }
   
   .footer a:hover {
-    color: #005bb5; /* Darker shade on hover */
+    color: #005bb5;
   }

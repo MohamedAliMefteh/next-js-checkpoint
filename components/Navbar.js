@@ -1,4 +1,4 @@
-// components/Navbar.js
+
 import Link from 'next/link';
 import styles from '../styles/Navbar.module.css';
 

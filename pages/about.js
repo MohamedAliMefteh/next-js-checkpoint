@@ -7,7 +7,7 @@ export default function AboutMe() {
     <div className={styles.container}>
         <Navbar/>
       <img
-        src="./images/profile.jpg" // Replace with your image path
+        src="./images/profile.jpg" 
         alt="Profile"
         className={styles.profilePicture}
       />

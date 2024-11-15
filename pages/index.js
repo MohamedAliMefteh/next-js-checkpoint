@@ -1,4 +1,4 @@
-// pages/index.js
+
 import Navbar from '../components/Navbar';
 import ProjectCard from '../components/ProjectCard';
 import styles from '../styles/Home.module.css';
